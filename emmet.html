@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- section#examples>h2+.sectionwrapper>.column*3>.column_content>.top+.bottom -->
+
+    <section id="examples">
+      <h2>
+        <div class="sectionwrapper">
+          <div class="column">
+            <div class="column_content">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="column_content">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="column_content">
+              <div class="top"></div>
+              <div class="bottom"></div>
+            </div>
+          </div>
+        </div>
+      </h2>
+    </section>
+
+    <!-- section#typography>h2>.sectionwrapper>(.column_wide(.column_content>.top+.bottom)+.column_narrow) -->
+    <section id="typography">
+      <h2>
+        <div class="sectionwrapper">
+          <div class="column_wide"></div>
+          <div class="column_content">
+            <div class="top"></div>
+            <div class="bottom"></div>
+          </div>
+          <div class="column_narrow"></div>
+        </div>
+      </h2>
+    </section>
+
+    <!-- section#colors>h2+.sectionwrapper>(.column_wide>.column_content>(ul>li*6.colors$)+.content)+.column_narrow -->
+
+    <section id="colors">
+      <h2></h2>
+      <div class="sectionwrapper">
+        <div class="column_wide">
+          <div class="column_content">
+            <ul>
+              <li class="colors1"></li>
+              <li class="colors2"></li>
+              <li class="colors3"></li>
+              <li class="colors4"></li>
+              <li class="colors5"></li>
+              <li class="colors6"></li>
+            </ul>
+            <div class="content"></div>
+          </div>
+        </div>
+        <div class="column_narrow"></div>
+      </div>
+    </section>
+  </body>
+</html>
